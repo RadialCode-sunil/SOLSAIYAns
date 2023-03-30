@@ -1,0 +1,29 @@
+<svg width="154" height="152" viewBox="0 0 154 152" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_d_1403_2)">
+<ellipse cx="77" cy="75.9893" rx="25" ry="23.9893" fill="url(#paint0_linear_1403_2)"/>
+</g>
+<g clip-path="url(#clip0_1403_2)">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M73.6863 80.9321H70.3725V77.6725H73.6863V80.9321ZM80.1863 80.9321V77.6725H83.5V80.9321H80.1863ZM70.5 74.5382H67.1863V90.335H70.3725V87.4514H73.5588V84.0664H80.3137V87.4514H83.5V90.335H86.6863V74.5382H83.3726V71.5293H86.4314V68.395H90V65.3861H83.7549V68.395H80.1863V71.5293H73.6863V68.395H70.1176V65.3861H64V68.395H67.4412V71.5293H70.5V74.5382Z" fill="white"/>
+<text fill="white" xml:space="preserve" style="white-space: pre" font-family="Poppins" font-size="5" font-weight="bold" letter-spacing="0em"><tspan x="64" y="89.8234">Cr</tspan><tspan x="64" y="97.8234">ea</tspan><tspan x="64" y="105.823">te</tspan><tspan x="64" y="113.823">d </tspan><tspan x="64" y="121.823">by </tspan><tspan x="64" y="129.823">En</tspan><tspan x="64" y="137.823">shi</tspan><tspan x="64" y="145.823">a</tspan></text>
+<text fill="white" xml:space="preserve" style="white-space: pre" font-family="Poppins" font-size="5" font-weight="bold" letter-spacing="0em"><tspan x="64" y="90.123">fro</tspan><tspan x="64" y="98.123">m </tspan><tspan x="64" y="106.123">th</tspan><tspan x="64" y="114.123">e </tspan><tspan x="64" y="122.123">No</tspan><tspan x="64" y="130.123">un </tspan><tspan x="64" y="138.123">Pr</tspan><tspan x="64" y="146.123">oje</tspan><tspan x="64" y="154.123">ct</tspan></text>
+</g>
+<defs>
+<filter id="filter0_d_1403_2" x="0" y="0" width="154" height="151.979" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset/>
+<feGaussianBlur stdDeviation="26"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.956863 0 0 0 0 0.909804 0 0 0 0 0.0117647 0 0 0 0.61 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_1403_2"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_1403_2" result="shape"/>
+</filter>
+<linearGradient id="paint0_linear_1403_2" x1="77" y1="52" x2="77" y2="99.9786" gradientUnits="userSpaceOnUse">
+<stop stop-color="#F4E803"/>
+<stop offset="0.692708" stop-color="#F4A003"/>
+</linearGradient>
+<clipPath id="clip0_1403_2">
+<rect width="26" height="24.9489" fill="white" transform="translate(64 63.5149)"/>
+</clipPath>
+</defs>
+</svg>

@@ -1,0 +1,683 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- SLICK MIN JS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+        integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- SLICK THEME MIN JS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+        integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- animate -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="shortcut icon" href="./assets/img/png/SOLSAIYAn_logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <title>SOLSAIYAns</title>
+
+</head>
+
+<body>
+    <div class="bg_color_black overflow-x-hidden">
+        <header class="min-vh-100 d-flex flex-column">
+            <nav class="py-4">
+                <div class="container">
+                    <div class="d-flex align-items-center justify-content-between">
+                        <a href="#" class=" ">
+                            <img class="width_50_xsm w-100 animate__animated animate__rollIn"
+                                src="./assets/img/png/SOLSAIYAn_logo.png" alt="SOLSAIYAn"></a>
+
+                        <span class="d-flex flex-column d-lg-none" onclick="navshow()">
+                            <span class="nav_line"></span>
+                            <span class="nav_line"></span>
+                            <span class="nav_line"></span>
+                        </span>
+
+                        <ul class="list-unstyled mb-0 d-flex align-items-center" id="show">
+                            <li class="ps-xl-5 ps-lg-4 ">
+                                <a href="#Home"
+                                    class="ff_Poppins fw_400 fs_xsm color_white position-relative hover_line">Home</a>
+                            </li>
+                            <li class="ps-xl-5 ps-lg-4 pt-5 pt-lg-0">
+                                <a href="#Fighter"
+                                    class="ff_Poppins fw_400 fs_xsm color_white position-relative hover_line">Fighter</a>
+                            </li>
+                            <li class="ps-xl-5 ps-lg-4 pt-5 pt-lg-0">
+                                <a href="#Roadmap"
+                                    class="ff_Poppins fw_400 fs_xsm color_white position-relative hover_line">Roadmap</a>
+                            </li>
+                            <li class="ps-xl-5 ps-lg-4 pt-5 pt-lg-0">
+                                <a href="#Team"
+                                    class="ff_Poppins fw_400 fs_xsm color_white position-relative hover_line">Team</a>
+                            </li>
+                            <li class="ms-xl-5 ms-lg-4 pt-5 pt-lg-0">
+                                <a href="#" class="ff_Poppins fw_400 fs_xsm color_white nav_btn d-inline-block">Connect
+                                    Wallet</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+            <!-- hero -->
+
+            <div class="container d-flex flex-grow-1 align-items-center" id="Home">
+                <div class="row align-items-center">
+                    <div class="col-12 col-lg-6 animate__animated animate__zoomInDown">
+                        <h1 class="ff_Poppins fw_700 fs_xl color_white">Non ut <span class="color_red">aliquet
+                                lacus</span>
+                            arcu aryuv testwf.</h1>
+                        <p class="ff_Poppins fw_400 fs_sm color_white opacity_7">
+                            At suspendisse tellus at pretium arcu turpis. Enim convallis sed tortor faucibus amet ipsum
+                            at
+                            lacus ultrices. Donec nibh viverra odio convallis.
+                        </p>
+                        <div>
+                            <a href="#" class="ff_Poppins fw_600 fs_sm color_white hero_btn d-inline-block">Mint Now</a>
+
+                            <a href="#" class="ff_Poppins fw_600 fs_sm color_white ps-4 d-inline-block">Learn more</a>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-lg-6 overflow-hidden bg_light_img">
+                        <div class="hero_img w-100 min_vh_100_lg min_vh_50"></div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- hero box -->
+        <section class="position-relative">
+            <img class="position-absolute d-none d-lg-block red_fire_1" src="./assets/img/png/red_fire.png"
+                alt="Red fire">
+            <div class="container pb-5">
+                <div class="hero_box" data-aos="flip-right">
+                    <p class="ff_Poppins fw_700 fs_lg color_white">The Story</p>
+                    <div class="row">
+                        <div class="col-12 col-lg-6">
+                            <p class="ff_Poppins fw_400 fs_xsm color_white">
+                                Neque cras adipiscing id id eu. Nisl leo donec mattis leo consectetur at nunc id. Nulla
+                                pharetra
+                                dolor sit quis donec
+                                tristique proin. Nulla quis magna tristique nisi eu at morbi. Malesuada lorem commodo
+                                ultrices
+                                morbi magna dictum congue
+                                nec.
+                            </p>
+                        </div>
+                        <div class="col-12 col-lg-6">
+                            <p class="ff_Poppins fw_400 fs_xsm color_white">
+                                Neque cras adipiscing id id eu. Nisl leo donec mattis leo consectetur at nunc id. Nulla
+                                pharetra
+                                dolor sit quis donec
+                                tristique proin. Nulla quis magna tristique nisi eu at morbi. Malesuada lorem commodo
+                                ultrices
+                                morbi magna dictum congue
+                                nec.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- Super_slider -->
+
+        <section class="bg_color_black  py-5 mt-lg-5  position-relative">
+            <!-- <div class="Super_slider_shadow position-absolute"></div>
+            <div class="Super_slider_shadow_2 position-absolute"></div> -->
+            <div class="row Super_slider pt-4 pt-lg-5" id="Fighter">
+
+                <div class="col-4 mx-3">
+                    <div class="Super_slider_scale">
+                        <img class="w-100" src="./assets/img/png/enemy_9.png" alt="Enemy">
+                        <p class="ff_Poppins fw_600 fs_sm color_white text-center pt-2">Super SolaSaiyan</p>
+                        <div class="d-flex flex-column align-items-center Super_height_text mb-5">
+                            <p class="ff_Poppins fw_400 fs_xsm color_white text-center">
+                                457/500 <span>0.04 ETH</span>
+                            </p>
+                            <a href="#" class="ff_Poppins fw_600 fs_xsm color_white slider_Super_btn d-inline-block">Min
+                                Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 mx-3">
+                    <div class="Super_slider_scale">
+                        <img class="w-100" src="./assets/img/png/enemy_13.png" alt="Enemy">
+                        <p class="ff_Poppins fw_600 fs_sm color_white text-center pt-2">Super SolaSaiyan</p>
+                        <div class="d-flex flex-column align-items-center Super_height_text">
+                            <p class="ff_Poppins fw_400 fs_xsm color_white text-center">
+                                457/500 <span>0.04 ETH</span>
+                            </p>
+                            <a href="#" class="ff_Poppins fw_600 fs_xsm color_white slider_Super_btn d-inline-block">Min
+                                Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 mx-3">
+                    <div class="Super_slider_scale">
+                        <img class="w-100" src="./assets/img/png/enemy_14.png" alt="Enemy">
+                        <p class="ff_Poppins fw_600 fs_sm color_white text-center pt-2">Super SolaSaiyan</p>
+                        <div class="d-flex flex-column align-items-center Super_height_text">
+                            <p class="ff_Poppins fw_400 fs_xsm color_white text-center">
+                                457/500 <span>0.04 ETH</span>
+                            </p>
+                            <a href="#" class="ff_Poppins fw_600 fs_xsm color_white slider_Super_btn d-inline-block">Min
+                                Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 mx-3">
+                    <div class="Super_slider_scale">
+                        <img class="w-100" src="./assets/img/png/enemy_15.png" alt="Enemy">
+                        <p class="ff_Poppins fw_600 fs_sm color_white text-center pt-2">Super SolaSaiyan</p>
+                        <div class="d-flex flex-column align-items-center Super_height_text">
+                            <p class="ff_Poppins fw_400 fs_xsm color_white text-center">
+                                457/500 <span>0.04 ETH</span>
+                            </p>
+                            <a href="#" class="ff_Poppins fw_600 fs_xsm color_white slider_Super_btn d-inline-block">Min
+                                Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 mx-3">
+                    <div class="Super_slider_scale">
+                        <img class="w-100" src="./assets/img/png/enemy_16.png" alt="Enemy">
+                        <p class="ff_Poppins fw_600 fs_sm color_white text-center pt-2">Super SolaSaiyan</p>
+                        <div class="d-flex flex-column align-items-center Super_height_text">
+                            <p class="ff_Poppins fw_400 fs_xsm color_white text-center">
+                                457/500 <span>0.04 ETH</span>
+                            </p>
+                            <a href="#" class="ff_Poppins fw_600 fs_xsm color_white slider_Super_btn d-inline-block">Min
+                                Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 mx-3">
+                    <div class="Super_slider_scale">
+                        <img class="w-100" src="./assets/img/png/enemy_17.png" alt="Enemy">
+                        <p class="ff_Poppins fw_600 fs_sm color_white text-center pt-2">Super SolaSaiyan</p>
+                        <div class="d-flex flex-column align-items-center Super_height_text">
+                            <p class="ff_Poppins fw_400 fs_xsm color_white text-center">
+                                457/500 <span>0.04 ETH</span>
+                            </p>
+                            <a href="#" class="ff_Poppins fw_600 fs_xsm color_white slider_Super_btn d-inline-block">Min
+                                Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Ante -->
+
+        <section class="py-5">
+            <div class="container">
+                <div class="row align-items-center ">
+                    <div class="col-12 col-lg-6" data-aos="fade-right">
+                        <img class="img-fluid" src="./assets/img/png/red_img.png" alt="Enemy">
+                    </div>
+                    <div class="col-12 col-lg-6 ps-lg-5" data-aos="fade-left">
+                        <div class="ps-lg-5">
+                            <h2 class="ff_Poppins fw_700 fs_lg color_white pt-4 pt-lg-0">Ante tempor, <span
+                                    class="color_red">neque
+                                    scelerisque</span> sit viverra.
+                            </h2>
+                            <p class="ff_Poppins fw_400 fs_xsm color_white">
+                                Viverra in morbi urna neque sollicitudin venenatis quam facilisis vivamus. Massa risus
+                                placerat
+                                lectus at nisl eleifend.
+                                Lorem consectetur diam at ut leo. Id lacus blandit integer suscipit arcu nisl nisl, nunc
+                                dictum.
+                                Viverra elit mauris
+                                tempor sit id. Viverra suspendisse lorem semper sit massa in neque scelerisque. Magna
+                                orci,
+                                id
+                                porttitor eu vitae arcu
+                                est ullamcorper. Tortor, vehicula lectus eu quis a nulla vehicula imperdiet vulputate.
+                                Ultricies
+                                malesuada habitasse id
+                                ornare id. Vel diam consequat platea morbi duis. Faucibus egestas nibh libero placerat
+                                placerat
+                                fusce nunc, nunc.
+                                Vivamus nibh blandit mattis tellus dui. Pharetra gravida sollicitudin praesent cursus
+                                odio
+                                enim
+                                risus.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Milestone  -->
+
+        <section class="position-relative py-5 mt-lg-5" id="Roadmap">
+            <img class="position-absolute d-none d-lg-block red_fire_2" src="./assets/img/png/red_fire.png"
+                alt="Red fire">
+            <img class="position-absolute d-none d-lg-block red_fire_3" src="./assets/img/png/red_fire.png"
+                alt="Red fire">
+            <div class="container">
+                <div class="timeline-width">
+                    <div class="timeline">
+                        <div class="timeline_box right">
+                            <div class="content" data-aos="fade-left">
+                                <p class="ff_Poppins fw_600 fs_md color_white">Milestone 1</p>
+                                <p class="ff_Poppins fw_400 fs_xsm color_white mb-5 pb-5">
+                                    Eget aliquam feugiat eget amet sem. Et in hendrerit purus at accumsan elementum non
+                                    volutpate.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="timeline_box left">
+                            <div class="content text-md-end" data-aos="fade-right">
+                                <p class="ff_Poppins fw_600 fs_md color_white">Milestone 1</p>
+                                <p class="ff_Poppins fw_400 fs_xsm color_white  mb-5 pb-5">
+                                    Eget aliquam feugiat eget amet sem. Et in hendrerit purus at accumsan elementum non
+                                    volutpate.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="timeline_box right">
+                            <div class="content" data-aos="fade-left">
+                                <p class="ff_Poppins fw_600 fs_md color_white">Milestone 1</p>
+                                <p class="ff_Poppins fw_400 fs_xsm color_white  mb-5 pb-5">
+                                    Eget aliquam feugiat eget amet sem. Et in hendrerit purus at accumsan elementum non
+                                    volutpate.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="timeline_box left">
+                            <div class="content text-md-end" data-aos="fade-right">
+                                <p class="ff_Poppins fw_600 fs_md color_white">Milestone 1</p>
+                                <p class="ff_Poppins fw_400 fs_xsm color_white  mb-5 pb-5">
+                                    Eget aliquam feugiat eget amet sem. Et in hendrerit purus at accumsan elementum non
+                                    volutpate.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="timeline_box right">
+                        <div class="content" data-aos="fade-left">
+                            <p class="ff_Poppins fw_600 fs_md color_white">Milestone 1</p>
+                            <p class="ff_Poppins fw_400 fs_xsm color_white">
+                                Eget aliquam feugiat eget amet sem. Et in hendrerit purus at accumsan elementum non
+                                volutpate.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Our -->
+        <section class="py-3 py-lg-5 position-relative" id="Team">
+            <img class="position-absolute d-none d-lg-block red_fire_4" src="./assets/img/png/blue_fire.png"
+                alt="blue_fire">
+            <div class="container">
+                <p class="ff_Poppins fw_700 fs_lg color_white text-center">Our Team</p>
+                <div class="row Our_slider pt-4">
+                    <div class="col-3 mx-3">
+                        <img class="w-100" src="./assets/img/png/enemy_1.png" alt="enemy">
+                        <p class="ff_Poppins fw_600 fs_md color_white text-center pt-3 mb-0">Member Name</p>
+                        <p class="ff_Poppins fw_400 fs_xsm color_white text-center">Designation</p>
+                    </div>
+                    <div class="col-3 mx-3">
+                        <img class="w-100" src="./assets/img/png/enemy_7.png" alt="enemy">
+                        <p class="ff_Poppins fw_600 fs_md color_white text-center pt-3 mb-0">Member Name</p>
+                        <p class="ff_Poppins fw_400 fs_xsm color_white text-center">Designation</p>
+                    </div>
+                    <div class="col-3 mx-3">
+                        <img class="w-100" src="./assets/img/png/enemy_13.png" alt="enemy">
+                        <p class="ff_Poppins fw_600 fs_md color_white text-center pt-3 mb-0">Member Name</p>
+                        <p class="ff_Poppins fw_400 fs_xsm color_white text-center">Designation</p>
+                    </div>
+                    <div class="col-3 mx-3">
+                        <img class="w-100" src="./assets/img/png/enemy_16.png" alt="enemy">
+                        <p class="ff_Poppins fw_600 fs_md color_white text-center pt-3 mb-0">Member Name</p>
+                        <p class="ff_Poppins fw_400 fs_xsm color_white text-center">Designation</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQs -->
+
+        <section class="py-3 py-lg-5 position-relative ">
+            <img class="position-absolute d-none d-lg-block red_fire_5" src="./assets/img/png/red_fire.png"
+                alt="Red fire">
+            <img class="position-absolute d-none d-lg-block red_fire_6" src="./assets/img/png/white_fire.png"
+                alt="white fire">
+            <div class="container">
+                <h2 class="ff_Poppins fw_700 fs_lg color_white pb-4">FAQs</h2>
+
+                <div class="accordion accordion-flush" id="accordionFlushExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingOne">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseOne" aria-expanded="false"
+                                aria-controls="flush-collapseOne">
+                                <span class="ff_Poppins fw_600 fs_xsm color_white">Laoreet placerat est arcu, integer
+                                    aliquam.</span>
+                            </button>
+                        </h2>
+                        <div id="flush-collapseOne" class="accordion-collapse collapse"
+                            aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                                <p class="ff_Poppins fw_400 fs_xsm color_white opacity_7">
+                                    Praesent id sem blandit urna, interdum egestas varius in. Venenatis vel, egestas
+                                    adipiscing elementum in. Orci, quis sit
+                                    neque enim condimentum egestas eu massa pretium. Mauris varius ultrices leo sapien
+                                    elementum, cras morbi porttitor.
+                                    Mattis malesuada a, feugiat vitae massa.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item mt-3">
+                        <h2 class="accordion-header" id="flush-headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseTwo" aria-expanded="false"
+                                aria-controls="flush-collapseTwo">
+                                <span class="ff_Poppins fw_600 fs_xsm color_white">Laoreet placerat est arcu, integer
+                                    aliquam.</span>
+                            </button>
+                        </h2>
+                        <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                            aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                                <p class="ff_Poppins fw_400 fs_xsm color_white opacity_7">
+                                    Praesent id sem blandit urna, interdum egestas varius in. Venenatis vel, egestas
+                                    adipiscing elementum in. Orci, quis sit
+                                    neque enim condimentum egestas eu massa pretium. Mauris varius ultrices leo sapien
+                                    elementum, cras morbi porttitor.
+                                    Mattis malesuada a, feugiat vitae massa.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item mt-3">
+                        <h2 class="accordion-header" id="flush-headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseThree" aria-expanded="false"
+                                aria-controls="flush-collapseThree">
+                                <span class="ff_Poppins fw_600 fs_xsm color_white">Laoreet placerat est arcu, integer
+                                    aliquam.</span>
+                            </button>
+                        </h2>
+                        <div id="flush-collapseThree" class="accordion-collapse collapse"
+                            aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                                <p class="ff_Poppins fw_400 fs_xsm color_white opacity_7">
+                                    Praesent id sem blandit urna, interdum egestas varius in. Venenatis vel, egestas
+                                    adipiscing elementum in. Orci, quis sit
+                                    neque enim condimentum egestas eu massa pretium. Mauris varius ultrices leo sapien
+                                    elementum, cras morbi porttitor.
+                                    Mattis malesuada a, feugiat vitae massa.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item mt-3">
+                        <h2 class="accordion-header" id="flush-headingFour">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseFour" aria-expanded="false"
+                                aria-controls="flush-collapseFour">
+                                <span class="ff_Poppins fw_600 fs_xsm color_white">Laoreet placerat est arcu, integer
+                                    aliquam.</span>
+                            </button>
+                        </h2>
+                        <div id="flush-collapseFour" class="accordion-collapse collapse"
+                            aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                                <p class="ff_Poppins fw_400 fs_xsm color_white opacity_7">
+                                    Praesent id sem blandit urna, interdum egestas varius in. Venenatis vel, egestas
+                                    adipiscing elementum in. Orci, quis sit
+                                    neque enim condimentum egestas eu massa pretium. Mauris varius ultrices leo sapien
+                                    elementum, cras morbi porttitor.
+                                    Mattis malesuada a, feugiat vitae massa.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item mt-3">
+                        <h2 class="accordion-header" id="flush-headingFive">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseFive" aria-expanded="false"
+                                aria-controls="flush-collapseFive">
+                                <span class="ff_Poppins fw_600 fs_xsm color_white">Laoreet placerat est arcu, integer
+                                    aliquam.</span>
+                            </button>
+                        </h2>
+                        <div id="flush-collapseFive" class="accordion-collapse collapse"
+                            aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                                <p class="ff_Poppins fw_400 fs_xsm color_white opacity_7">
+                                    Praesent id sem blandit urna, interdum egestas varius in. Venenatis vel, egestas
+                                    adipiscing elementum in. Orci, quis sit
+                                    neque enim condimentum egestas eu massa pretium. Mauris varius ultrices leo sapien
+                                    elementum, cras morbi porttitor.
+                                    Mattis malesuada a, feugiat vitae massa.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item mt-3">
+                        <h2 class="accordion-header" id="flush-headingSix">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseSix" aria-expanded="false"
+                                aria-controls="flush-collapseSix">
+                                <span class="ff_Poppins fw_600 fs_xsm color_white">Laoreet placerat est arcu, integer
+                                    aliquam.</span>
+                            </button>
+                        </h2>
+                        <div id="flush-collapseSix" class="accordion-collapse collapse"
+                            aria-labelledby="flush-headingSix" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                                <p class="ff_Poppins fw_400 fs_xsm color_white opacity_7">
+                                    Praesent id sem blandit urna, interdum egestas varius in. Venenatis vel, egestas
+                                    adipiscing elementum in. Orci, quis sit
+                                    neque enim condimentum egestas eu massa pretium. Mauris varius ultrices leo sapien
+                                    elementum, cras morbi porttitor.
+                                    Mattis malesuada a, feugiat vitae massa.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item mt-3">
+                        <h2 class="accordion-header" id="flush-headingSeven">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseSeven" aria-expanded="false"
+                                aria-controls="flush-collapseSeven">
+                                <span class="ff_Poppins fw_600 fs_xsm color_white">Laoreet placerat est arcu, integer
+                                    aliquam.</span>
+                            </button>
+                        </h2>
+                        <div id="flush-collapseSeven" class="accordion-collapse collapse"
+                            aria-labelledby="flush-headingSeven" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                                <p class="ff_Poppins fw_400 fs_xsm color_white opacity_7">
+                                    Praesent id sem blandit urna, interdum egestas varius in. Venenatis vel, egestas
+                                    adipiscing elementum in. Orci, quis sit
+                                    neque enim condimentum egestas eu massa pretium. Mauris varius ultrices leo sapien
+                                    elementum, cras morbi porttitor.
+                                    Mattis malesuada a, feugiat vitae massa.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- backToTop -->
+        <button onclick="backToTop()" class="backToTop bg_lightyellow2 border-0 rounded-circle" id="topbtn"><img
+                src="./assets/img/png/top_button.png" alt="">
+        </button>
+
+        <!-- footer -->
+
+        <footer class="py-5">
+            <div class="text-center">
+                <img class="width_50_xsm " src="./assets/img/png/SOLSAIYAn_logo.png" alt="SOLSAIYAn">
+                <div class="d-flex justify-content-center align-items-center pt-4 pt-lg-5">
+                    <a href="#" class="favicon">
+                        <svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M55.4752 0.0185547C59.7366 0.0185547 63.1962 3.4783 63.1962 7.7396V55.4937C63.1962 59.7551 59.7365 63.2148 55.4752 63.2148H7.72105C3.45975 63.2148 0 59.7551 0 55.4937V7.7396C0 3.4783 3.45962 0.0185547 7.72105 0.0185547H55.4752V0.0185547ZM24.1329 52.4201C40.9119 52.4201 50.0864 38.5165 50.0864 26.4667C50.0864 26.0695 50.0864 25.6722 50.0675 25.2938C51.8456 24.0076 53.3967 22.3997 54.6264 20.5647C52.9995 21.2836 51.2403 21.7755 49.3865 22.0025C51.2782 20.8674 52.7158 19.0893 53.3968 16.9517C51.6376 17.9921 49.6892 18.7488 47.6084 19.1649C45.9437 17.3868 43.5791 16.2896 40.9498 16.2896C35.9179 16.2896 31.832 20.3756 31.832 25.4074C31.832 26.1263 31.9077 26.8261 32.0779 27.4882C24.4924 27.1099 17.777 23.4779 13.2749 17.9543C12.4993 19.2974 12.0453 20.8674 12.0453 22.5321C12.0453 25.6912 13.6532 28.4908 16.1123 30.1176C14.618 30.0797 13.2181 29.6636 11.9885 28.9826V29.0961C11.9885 33.5226 15.1287 37.1924 19.3093 38.0436C18.5527 38.2517 17.7393 38.3652 16.9068 38.3652C16.3204 38.3652 15.753 38.3084 15.1855 38.1949C16.3394 41.8269 19.7065 44.4562 23.6979 44.5319C20.5767 46.9722 16.6421 48.4287 12.367 48.4287C11.6292 48.4287 10.9104 48.391 10.1915 48.2963C14.1829 50.9068 18.9876 52.4201 24.1329 52.4201Z"
+                                fill="white" />
+                        </svg>
+                    </a>
+                    <a href="#" class="ps-4 favicon">
+                        <svg width="60" height="69" viewBox="0 0 60 69" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M40.0487 32.9269C40.0487 34.9887 38.5279 36.6783 36.6015 36.6783C34.7089 36.6783 33.1542 34.9887 33.1542 32.9269C33.1542 30.8654 34.6752 29.1757 36.6015 29.1757C38.528 29.1757 40.0487 30.8654 40.0487 32.9269ZM24.2659 29.1757C22.3394 29.1757 20.8186 30.8654 20.8186 32.9269C20.8186 34.9887 22.3733 36.6783 24.2659 36.6783C26.1922 36.6783 27.713 34.9887 27.713 32.9269C27.747 30.8654 26.1922 29.1757 24.2659 29.1757ZM59.9547 7.7826V68.413C51.4404 60.8887 54.1635 63.3795 44.2731 54.1849L46.0646 60.437H7.73938C3.92054 60.437 0.811419 57.3281 0.811419 53.4748V7.7826C0.811419 3.92967 3.92054 0.820557 7.73938 0.820557H53.0262C56.8455 0.820557 59.9547 3.92967 59.9547 7.7826ZM50.3226 39.8213C50.3226 28.939 45.4561 20.1181 45.4561 20.1181C40.5896 16.4683 35.9593 16.5697 35.9593 16.5697L35.4862 17.1105C41.2317 18.8677 43.9016 21.4025 43.9016 21.4025C35.8734 17.0025 26.4432 17.0018 18.6557 20.4224C17.405 20.9968 16.6616 21.4025 16.6616 21.4025C16.6616 21.4025 19.4667 18.7326 25.5501 16.9752L25.2122 16.5695C25.2122 16.5695 20.582 16.4683 15.7153 20.118C15.7153 20.118 10.8488 28.9388 10.8488 39.8211C10.8488 39.8211 13.6877 44.7216 21.1564 44.9581C21.1564 44.9581 22.407 43.4375 23.4207 42.1531C19.1286 40.8688 17.5067 38.1654 17.5067 38.1654C18.0038 38.5129 18.8236 38.9644 18.8923 39.01C24.5966 42.2049 32.6996 43.2513 39.9812 40.193C41.164 39.7538 42.4822 39.1115 43.8677 38.199C43.8677 38.199 42.1779 40.9705 37.7505 42.2208C38.7646 43.5049 39.9812 44.9581 39.9812 44.9581C47.4501 44.7217 50.3226 39.8213 50.3226 39.8213Z"
+                                fill="white" />
+                        </svg>
+
+                    </a>
+                </div>
+                <a href="#" class="ff_Poppins fw_400 fs_xsm color_white opacity_7 pt-4 d-inline-block">
+                    Privacy Policy <span class="ps-4">Terms</span>
+                </a>
+            </div>
+        </footer>
+
+    </div>
+
+
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script>
+        function navshow() {
+            document.getElementById("show").classList.toggle("nav_left")
+            document.body.classList.toggle("overflow-hidden")
+        }
+    </script>
+
+    <script>
+        const topbtn = document.getElementById('topbtn');
+
+
+        window.onscroll = function () { topscroll() };
+
+        function topscroll() {
+            if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+                topbtn.style.display = "block";
+            }
+            else {
+                topbtn.style.display = "none";
+            }
+        }
+
+
+        function backToTop() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+
+    </script>
+
+    <!--L QUERRY MIN JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!--SLICK MIN JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+        integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+    <script>
+        $('.Super_slider').slick({
+            centerMode: true,
+            centerPadding: '60px',
+            slidesToShow: 5,
+            autoplay: true,
+            autoplaySpeed: 900,
+            speed: 3000,
+            pauseOnHover: false,
+            responsive: [
+                {
+                    breakpoint: 768,
+                    settings: {
+                        arrows: false,
+                        centerMode: true,
+                        centerPadding: '40px',
+                        slidesToShow: 3,
+                    }
+                },
+                {
+                    breakpoint: 480,
+                    settings: {
+                        arrows: false,
+                        centerMode: true,
+                        centerPadding: '40px',
+                        slidesToShow: 1
+                    }
+                }
+            ]
+        });
+    </script>
+    <!-- Our_slider -->
+    <script>
+        $('.Our_slider').slick({
+            dots: false,
+            infinite: false,
+            speed: 300,
+            slidesToShow: 4,
+            slidesToScroll: 4,
+            arrows: false,
+            responsive: [
+                {
+                    breakpoint: 1024,
+                    settings: {
+                        slidesToShow: 3,
+                        slidesToScroll: 1,
+                        infinite: true,
+                        dots: true
+                    }
+                },
+                {
+                    breakpoint: 600,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 1,
+                        dots: true
+                    }
+                },
+                {
+                    breakpoint: 480,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1,
+                        dots: true
+                    }
+                }
+            ]
+        });
+    </script>
+
+
+</body>
+
+</html>
